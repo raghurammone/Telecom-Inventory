@@ -1,0 +1,53 @@
+/* Settings.css */
+.settings-container {
+  margin-top: 10px;
+  padding-top: 19rem;
+  font-family: Arial, sans-serif;
+   min-height: 100vh;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1d3557;
+}
+
+.setting-card {
+  background-color: #f1efeed0;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.setting-card h3 {
+  font-size: 1.5rem;
+  color: #1d3557;
+}
+
+.setting-card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.theme-select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.btn-toggle {
+  padding: 0.8rem 1.5rem;
+  background-color: #1d3557;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-toggle:hover {
+  background-color: #a8dadc;
+}

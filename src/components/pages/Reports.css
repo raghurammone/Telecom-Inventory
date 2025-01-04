@@ -1,0 +1,39 @@
+/* Reports.css */
+.reports-container {
+    padding-top: 60px; /* Adjust to account for the fixed navbar */
+    padding: 20px;
+    margin-top: 200px;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+  
+  .reports-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1d3557;
+    margin-bottom: 20px;
+  }
+  
+  .reports-container .report-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .reports-container .report-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .reports-container .report-card h3 {
+    color: #1d3557;
+    margin-bottom: 10px;
+  }
+  
+  .reports-container .report-card p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
